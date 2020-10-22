@@ -3,9 +3,9 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplab.project.atmega328pb-basic-peripherals-mplab",
+        "name": "com.microchip.mcu8.mplabx.project.atmega328pb-basic-peripherals-mplab",
         "version": "1.0.0",
-        "displayName": "Basic Peripherals",
+        "displayName": "ATmega328PB Basic Peripherals",
         "projectName": "atmega328pb-basic-peripherals-mplab",
         "shortDescription": "This repository will introduce basic peripherals of the ATmega328PB such as ADC, PWM and USART.",
         "ide": {
@@ -45,15 +45,15 @@
             ],
             [
                 "Peripherals",
-                "PWM"
+                "TC0"
+            ],
+            [
+                "Peripherals",
+                "TC1"
             ],
             [
                 "Peripherals",
                 "USART"
-            ],
-            [
-                "Peripherals",
-                "TIMER"
             ],
             [
                 "Development Kit",
@@ -62,13 +62,11 @@
         ],
         "peripherals": [
             "ADC",
-            "PWM",
-            "USART",
-            "TIMER"
+            "TC0",
+            "TC1",
+            "USART" 
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {
